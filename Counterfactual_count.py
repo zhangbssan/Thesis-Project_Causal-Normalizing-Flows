@@ -29,7 +29,7 @@ loader = preparator_data._data_loader(
     )
 x, y = next((iter(loader)))
 
-interven_value = torch.tensor([0.5,0.5,0.5,0.5])
+interven_value = torch.tensor([-2,-2,-2,-2])
 
 def ckpt_file_name(ckpt_name_list):
    for i in range(len(ckpt_name_list)):
@@ -163,7 +163,7 @@ my_index = torch.tensor(range(0,len(x[0])))
 ##counterfactual error
 ## configurate the models with different causal graphs
 model_real_graph = models(cfg, cfg.dataset,'simpson_nonlinear_50000')
-model_2 = models(cfg, cfg.dataset2,'simpson_nonlinear_x3tox4')
+model_2 = models(cfg, cfg.dataset2,'simpson_nonlinear_x1tox2')
 # ground_truth model
 functions, inverses= get_ground_truth_SCM('simpson')
 # get the exogenous variables
