@@ -1,0 +1,68 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Wrong_graph_2",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "--config_file",
+                "causal_nf/configs/causal_nf_wrong_2.yaml",
+                "--wandb_mode",
+                "run",
+                "--project",
+                "CAUSAL_NF_NONLINEAR_GRAPHS_0705"
+            ]
+        },
+        {
+            "name": "Python Debugger: Counterfactual_count",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "--config_file",
+                "causal_nf/configs/counterfactual_error_count.yaml",
+                "--wandb_mode",
+                "disabled",
+                "--project",
+                "CAUSAL_NF_ERRORS"
+            ]
+        },
+        {
+            "name": "Python Debugger: Wrong_graphs",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "--config_file",
+                "causal_nf/configs/causal_nf_wrong_1.yaml",
+                "--wandb_mode",
+                "run",
+                "--project",
+                "CAUSAL_NF_NONLINEAR_GRAPHS_0705"
+            ],
+        },
+        {
+            "name": "Python Debugger: Real_graph",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "--config_file",
+                "causal_nf/configs/causal_nf.yaml",
+                "--wandb_mode",
+                "run",
+                "--project",
+                "CAUSAL_NF_NONLINEAR_0705"
+            ],
+        }
+    ]
+}
