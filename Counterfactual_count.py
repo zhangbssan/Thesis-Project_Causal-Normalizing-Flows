@@ -163,7 +163,7 @@ my_index = torch.tensor(range(0,len(x[0])))
 ##counterfactual error
 ## configurate the models with different causal graphs
 model_real_graph = models(cfg, cfg.dataset,'simpson_nonlinear_50000')
-model_2 = models(cfg, cfg.dataset2,'simpson_nonlinear_x1tox2')
+model_2 = models(cfg, cfg.dataset2,'simpson_nonlinear_x3tox4')
 # ground_truth model
 functions, inverses= get_ground_truth_SCM('simpson')
 # get the exogenous variables
