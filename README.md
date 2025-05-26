@@ -1,27 +1,26 @@
-🎓 Graduation Thesis: Causal Modeling with Structural Causal Models (SCMs)
+# 🎓 Graduation Thesis: Causal Modeling with Structural Causal Models (SCMs)
 Welcome! This repository contains the code, experiments, and insights from my graduation thesis, which explores how Structural Causal Models (SCMs) can be used to model and analyze data-generating processes — both in theory and in practice.
 
-🧠 Project Overview
+## 🧠 Project Overview
 This project investigates causal machine learning through the lens of SCMs. It operates under the assumption that features in the dataset are causally related via underlying functional dependencies.
 
 The project is driven by two core goals:
 
-Learning the data-generating process using machine learning models based on the causal structure, which is represented by the Causal Graph(DAG).
+1. **Learning the data-generating process** using machine learning models based on the causal structure, which is represented by the Causal Graph(DAG).
 
-Modeling counterfactuals in a trustworthy way — such that their distributions remain valid.
+2.**Analyzing the causal effects of structural mismatches**, especially how incorrect assumptions about causality(Causal Graph) impact the distribution of counterfactual inference.
 
-Analyzing the causal effects of structural mismatches, especially how incorrect assumptions about causality(Causal Graph) impact the distribution of counterfactual inference.
+---
 
-
-🧮 Linear Case
-In the linear scenario, I use a closed-form solution via maximum likelihood estimation (MLE) to directly model the data-generating process.
+## 🧮 Linear Case
+In the linear scenario, I use **a closed-form solution** via **maximum likelihood estimation (MLE)** to directly model the data-generating process.
 
 Techniques:
-Analytical modeling using linear algebra and matrix operations.
+- Analytical modeling using **linear algebra** and **matrix operations**.
 
-Code implementation in pure NumPy.
+- Code implementation in **NumPy**.
 
-Unit tests written with Pytest to validate correctness.
+- Unit tests written with **Pytest** to validate correctness.
 
 🔀 Nonlinear Case
 For nonlinear dependencies, I implemented a Causal Normalizing Flow (CNF) — an autoregressive model that learns complex data-generation processes, assuming the causal graph is respected (via masked layers with adjacency matrix).
