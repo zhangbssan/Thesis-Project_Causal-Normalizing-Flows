@@ -66,14 +66,14 @@ class Simpson_wrong_2(SEM):
         adj = torch.zeros((4, 4))
         if self.sem_name in["non-linear","linear"]:
             adj[0, :] = torch.tensor([0, 0, 0, 0])
-            adj[1, :] = torch.tensor([0, 0, 0, 0])## remove the edge from x1 to x2
-            adj[2, :] = torch.tensor([1, 1, 0, 0])
-            adj[3, :] = torch.tensor([0, 0, 1, 0])
+            adj[1, :] = torch.tensor([1, 0, 0, 0])
+            adj[2, :] = torch.tensor([1, 1, 0, 1])## change the direction from x4 to x3
+            adj[3, :] = torch.tensor([0, 0, 0, 0])
         elif self.sem_name == "sym-prod":
             adj[0, :] = torch.tensor([0, 0, 0, 0])
             adj[1, :] = torch.tensor([1, 0, 0, 0])
             adj[2, :] = torch.tensor([0, 1, 0, 0])## remove the edge from x1 to x3
-            adj[3, :] = torch.tensor([0, 0, 1, 0]) 
+            adj[3, :] = torch.tensor([0, 0, 1, 0])
         if add_diag:
             adj += torch.eye(4)
 

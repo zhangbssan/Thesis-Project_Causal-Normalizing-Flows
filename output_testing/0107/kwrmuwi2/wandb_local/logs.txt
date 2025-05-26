@@ -1,0 +1,23 @@
+{"val": {"log_prob_true": -3.571621894836426, "time_log_prob": 2.4164154529571533, "loss": 5.405135631561279, "log_prob": -5.405135631561279, "loss_jacobian_x": 0.0, "loss_jacobian_u": NaN}, "epoch": 0, "timestamp": 1719838568}
+{"val": {"log_prob_true": -3.571621894836426, "time_log_prob": 2.4972448348999023, "loss": 5.096415042877197, "log_prob": -5.096415042877197, "loss_jacobian_x": 0.0, "loss_jacobian_u": NaN}, "epoch": 0, "timestamp": 1719838568}
+{"train": {"loss": 5.7329325675964355, "log_prob": -5.736077308654785, "time_forward": 1.424319863319397, "loss_jacobian_x": 0.0, "loss_jacobian_u": NaN, "lr": 0.001}, "epoch": 0, "timestamp": 1719838568}
+{"val": {"log_prob_true": -3.571621894836426, "time_log_prob": 2.269005298614502, "loss": 4.849152565002441, "log_prob": -4.849152565002441, "time_sample_obs": 5.238340377807617, "x": 0.8773797154426575, "mmd_obs": 0.0020949840545654297, "log_prob_p": -8.664517402648926, "kl_distance": 4.839937686920166}, "epoch": 1, "timestamp": 1719838576}
+{"train": {"loss": 5.46328592300415, "log_prob": -5.465436935424805, "time_forward": 1.4363535642623901, "lr": 0.001}, "epoch": 1, "timestamp": 1719838576}
+{"val": {"log_prob_true": -3.571621894836426, "time_log_prob": 2.322370767593384, "loss": 4.542227745056152, "log_prob": -4.542227745056152}, "epoch": 2, "timestamp": 1719838577}
+{"train": {"loss": 5.186072826385498, "log_prob": -5.189177989959717, "time_forward": 1.4141409397125244, "lr": 0.001}, "epoch": 2, "timestamp": 1719838577}
+{"val": {"log_prob_true": -3.571621894836426, "time_log_prob": 2.3453688621520996, "loss": 4.225459575653076, "log_prob": -4.225459575653076}, "epoch": 3, "timestamp": 1719838577}
+{"train": {"loss": 4.854002952575684, "log_prob": -4.857679843902588, "time_forward": 1.4003491401672363, "lr": 0.001}, "epoch": 3, "timestamp": 1719838577}
+{"val": {"log_prob_true": -3.571621894836426, "time_log_prob": 2.3802425861358643, "loss": 4.0450849533081055, "log_prob": -4.0450849533081055}, "epoch": 4, "timestamp": 1719838578}
+{"train": {"loss": 4.589381694793701, "log_prob": -4.590953350067139, "time_forward": 1.3856327533721924, "lr": 0.001}, "epoch": 4, "timestamp": 1719838578}
+{"val": {"log_prob_true": -3.571621894836426, "time_log_prob": 2.415384531021118, "loss": 3.9264132976531982, "log_prob": -3.9264132976531982, "loss_jacobian_x": 0.0, "loss_jacobian_u": NaN}, "epoch": 5, "timestamp": 1719838579}
+{"train": {"loss": 4.43709659576416, "log_prob": -4.438525199890137, "time_forward": 1.4075779914855957, "loss_jacobian_x": 0.0, "loss_jacobian_u": NaN, "lr": 0.001}, "epoch": 5, "timestamp": 1719838579}
+{"val": {"log_prob_true": -3.571621894836426, "time_log_prob": 2.08132266998291, "loss": 3.858879327774048, "log_prob": -3.858879327774048}, "epoch": 6, "timestamp": 1719838579}
+{"train": {"loss": 4.336616039276123, "log_prob": -4.3365888595581055, "time_forward": 1.45307457447052, "lr": 0.001}, "epoch": 6, "timestamp": 1719838579}
+{"val": {"log_prob_true": -3.571621894836426, "time_log_prob": 2.567150831222534, "loss": 3.802009344100952, "log_prob": -3.802009344100952}, "epoch": 7, "timestamp": 1719838580}
+{"train": {"loss": 4.273072242736816, "log_prob": -4.27382230758667, "time_forward": 1.420722484588623, "lr": 0.001}, "epoch": 7, "timestamp": 1719838580}
+{"val": {"log_prob_true": -3.571621894836426, "time_log_prob": 2.084819793701172, "loss": 3.7640645503997803, "log_prob": -3.7640645503997803}, "epoch": 8, "timestamp": 1719838580}
+{"train": {"loss": 4.224696159362793, "log_prob": -4.224930286407471, "time_forward": 1.4585793018341064, "lr": 0.001}, "epoch": 8, "timestamp": 1719838580}
+{"val": {"log_prob_true": -3.571621894836426, "time_log_prob": 2.139232635498047, "loss": 3.735208511352539, "log_prob": -3.735208511352539}, "epoch": 9, "timestamp": 1719838581}
+{"train": {"loss": 4.190581321716309, "log_prob": -4.190467834472656, "time_forward": 1.4435871839523315, "lr": 0.001}, "epoch": 9, "timestamp": 1719838581}
+{"val": {"log_prob_true": -3.571621894836426, "time_log_prob": 2.184915065765381, "loss": 3.7140679359436035, "log_prob": -3.7140679359436035, "loss_jacobian_x": 0.0, "loss_jacobian_u": NaN}, "epoch": 10, "timestamp": 1719838582}
+{"train": {"loss": 4.163929462432861, "log_prob": -4.1638665199279785, "time_forward": 1.4312587976455688, "loss_jacobian_x": 0.0, "loss_jacobian_u": NaN, "lr": 0.001}, "epoch": 10, "timestamp": 1719838582}

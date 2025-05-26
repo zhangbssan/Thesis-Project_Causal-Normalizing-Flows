@@ -16,7 +16,7 @@
                 "--wandb_mode",
                 "run",
                 "--project",
-                "CAUSAL_NF_NONLINEAR_GRAPHS_0705"
+                "CAUSAL_NF_NONLINEAR_GRAPHS_Change_X3toX4_3105"
             ]
         },
         {
@@ -46,7 +46,7 @@
                 "--wandb_mode",
                 "run",
                 "--project",
-                "CAUSAL_NF_NONLINEAR_GRAPHS_0705"
+                "CAUSAL_NF_NONLINEAR_GRAPHS_Change_X2toX3_3105"
             ],
         },
         {
@@ -61,7 +61,7 @@
                 "--wandb_mode",
                 "run",
                 "--project",
-                "CAUSAL_NF_NONLINEAR_0705"
+                "CAUSAL_NF_NONLINEAR_0107"
             ],
         }
     ]

@@ -63,9 +63,9 @@ class Simpson_wrong_1(SEM):
     def adjacency(self, add_diag=False):
         adj = torch.zeros((4, 4))
         if self.sem_name in["non-linear","linear"]:
-            adj[0, :] = torch.tensor([0, 1, 0, 0])## change the direction from x2 to x1
-            adj[1, :] = torch.tensor([0, 0, 0, 0])
-            adj[2, :] = torch.tensor([1, 1, 0, 0])
+            adj[0, :] = torch.tensor([0, 0, 0, 0])
+            adj[1, :] = torch.tensor([1, 0, 1, 0])## change direction from x2 to x3
+            adj[2, :] = torch.tensor([1, 0, 0, 0])
             adj[3, :] = torch.tensor([0, 0, 1, 0])
         elif self.sem_name == "sym-prod":
             adj[0, :] = torch.tensor([0, 0, 0, 0])

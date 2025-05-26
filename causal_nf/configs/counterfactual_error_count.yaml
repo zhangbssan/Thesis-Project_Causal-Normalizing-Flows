@@ -1,6 +1,6 @@
 device: cpu
-root_dir: output_testing/0705
-seed: 2
+root_dir: output_testing/1505
+seed: 3
 dataset:
   root: ../Data
   name: simpson
@@ -9,7 +9,7 @@ dataset:
   k_fold: 1
   shuffle_train: True
   loss: default
-  scale: default
+  scale: default 
   num_samples: 50000
   base_version: 1
 dataset2:

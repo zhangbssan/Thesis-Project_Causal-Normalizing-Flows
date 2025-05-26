@@ -1,0 +1,53 @@
+{
+    "os": "macOS-13.1-arm64-arm-64bit",
+    "python": "3.10.7",
+    "heartbeatAt": "2024-05-25T15:29:06.154483",
+    "startedAt": "2024-05-25T15:29:05.139319",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--config_file",
+        "causal_nf/configs/causal_nf_wrong_2.yaml",
+        "--wandb_mode",
+        "run",
+        "--project",
+        "CAUSAL_NF_NONLINEAR_GRAPHS_X3toX4_2505"
+    ],
+    "state": "running",
+    "program": "/Users/baoshuangzhang/Documents/Thesis/CNFs/causal-flows_2/wrong_graph_2.py",
+    "codePath": "wrong_graph_2.py",
+    "git": {
+        "remote": "https://github.com/zhangbssan/causal-flows.git",
+        "commit": "716f5d158418fe0777a5e403c7b9967c7060fd8e"
+    },
+    "email": "zhangbs.san@gmail.com",
+    "root": "/Users/baoshuangzhang/Documents/Thesis/CNFs/causal-flows_2",
+    "host": "BaoshuangdeMacBook-Pro-2.local",
+    "username": "baoshuangzhang",
+    "executable": "/Users/baoshuangzhang/Documents/Thesis/CNFs/causal-flows_2/CNFs/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "cpu_freq": {
+        "current": 3228,
+        "min": 600,
+        "max": 3228
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3228,
+            "min": 600,
+            "max": 3228
+        }
+    ],
+    "disk": {
+        "total": 926.3517189025879,
+        "used": 8.261497497558594
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}
