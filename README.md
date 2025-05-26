@@ -7,7 +7,6 @@ This project investigates causal machine learning through the lens of SCMs. It o
 The project is driven by two core goals:
 
 1. **Learning the data-generating process** using machine learning models based on the causal structure, which is represented by the Causal Graph(DAG).
-
 2.**Analyzing the causal effects of structural mismatches**, especially how incorrect assumptions about causality(Causal Graph) impact the distribution of counterfactual inference.
 
 ---
